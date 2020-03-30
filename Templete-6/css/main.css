@@ -1,0 +1,561 @@
+/*start our framework*/
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+::selection {
+    background-color: #F7600F;
+    color: #fff;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+    position: relative;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row
+}
+
+.text-center {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.dark-color {
+    color: #F7600F;
+}
+
+.bg-color {
+    background-color: #F7600F;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.hiden {
+    display: none;
+}
+
+/*end our framework*/
+.header {
+    background-image: url('../images/header.jpg');
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.header .navbar {
+    padding-top: 15px;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header .navbar .links {
+    float: right
+}
+
+.header .navbar .fst-span {
+    padding-left: 18%;
+}
+
+.header .navbar .nd-span {
+    padding-right: 18%
+}
+
+.header .navbar .links i {
+    margin-left: 15px;
+}
+
+.header .intro h1 {
+    font-size: 50px;
+}
+
+.header .intro p {
+    line-height: 1.8;
+    font-size: 20px;
+
+}
+
+.header .buttons button {
+    background: transparent;
+    padding: 10px 25px;
+    color: #fff;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .buttons button:hover {
+    background-color: #F7600F;
+    border: 1px solid #F7600F;
+}
+
+.header .arrow {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header .arrow i {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    line-height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/**/
+/*Start section features*/
+.features {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.features .box {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+
+.features .box:last-child {
+    margin-right: 0
+}
+
+.features .box i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #F7600F;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    -webkit- transition: all .5s ease-in-out;
+    -moz- transition: all .5s ease-in-out;
+    -o- transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.features .box i:hover {
+    color: #fff;
+    background-color: #f7600f
+}
+
+.features .box h3,
+.features .box p {
+    margin-top: 20px;
+}
+
+/*End section features*/
+/*Start section Subsciber*/
+.subsciber {
+    background-image: url('../images/lamp.jpg');
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+.subsciber form {
+    text-align: center;
+    margin: auto;
+    padding: 100px 0;
+    width: 500px;
+}
+
+.subsciber form input[type="email"] {
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.subsciber form button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: #f7600f;
+    cursor: pointer
+}
+
+/*End section Subsciber*/
+/*Start Section our-work*/
+.show-more {
+    background: transparent;
+    padding: 10px 10px;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    -webkit- transition: all .5s ease-in-out;
+    -moz- transition: all .5s ease-in-out;
+    -o- transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.our-work h2 {
+    font-size: 40px;
+}
+
+.our-work .item-box {
+    overflow: hidden;
+}
+
+.our-work .item-box .item {
+    width: 32%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.our-work .item-box .item img {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #222;
+    overflow: hidden
+}
+
+.show-more:hover {
+    color: #fff;
+    background-color: #f7600f;
+
+}
+
+.our-work .item-box .over {
+    background-color: rgba(247, 96, 15, .5);
+    text-align: center;
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    left: 17px;
+    top: 0;
+    display: none;
+}
+
+.our-work .item-box .item:hover .over {
+    display: block;
+}
+
+.contact-me {
+
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #f7600f;
+    color: #fff;
+    border: 1px solid #f7600f;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: all .7s ease-in-out;
+}
+
+.contact-me:hover {
+    color: #f7600f;
+    background-color: #fff;
+}
+
+/*End Section our-work*/
+/*start section testim*/
+.testim {
+    background-image: url('../images/pen.jpg');
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #999
+}
+
+.testim .clients {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.testim .clients img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.testim .clients p,
+.testim .clients span {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.testim .fa-chevron-left,
+.testim .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    -webkit- transition: all .5s ease-in-out;
+    -moz- transition: all .5s ease-in-out;
+    -o- transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.testim .fa-chevron-left:hover,
+.testim .fa-chevron-right:hover {
+    color: #f7600f;
+}
+
+.testim .fa-chevron-left {
+
+    left: 0;
+}
+
+.testim .fa-chevron-right {
+    right: 0;
+}
+
+/*end section testim*/
+/*Start section our-team*/
+.our-team {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.our-team h2 {
+    font-size: 50px;
+}
+
+.our-team .para {
+    line-height: 2;
+    font-size: 25px;
+}
+
+.our-team .the-team {
+    filter: grayscale(1);
+    filter: gray;
+    transition: all .8s ease-in-out
+}
+
+.our-team .the-team:hover {
+    filter: none;
+    filter: grayscale(0);
+    margin-top: -10px;
+}
+
+.our-team .the-team:hover .na {
+    color: #f7600f;
+
+}
+
+.our-team .the-team:hover .fa-facebook {
+    color: #3b5998
+}
+
+.our-team .the-team:hover .fa-twitter {
+    color: #1da1f2
+}
+
+.our-team .the-team:hover .fa-google-plus {
+    color: #dd4b39
+}
+
+.our-team .the-team img {
+    width: 350px;
+    height: 350px;
+
+}
+
+.our-team .the-team {
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+}
+
+.our-team .the-team img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #333,
+        -5px -5px 5px #333;
+    background-color: #fff;
+    padding: 1px;
+    border: 1px thin #222
+}
+
+.our-team .the-team p {
+    line-height: 1.6;
+}
+
+.our-team .the-team i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #222;
+    line-height: 50px;
+}
+
+/*End section our-team*/
+/*Start section contact*/
+.contact {
+    background-image: url('../images/pen.jpg');
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.contact .overlay {
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact form {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 2.5%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact form input[type="text"] {
+    float: left;
+    margin-left: 2%;
+}
+
+.contact form input[type="email"] {
+    float: right
+}
+
+.contact form textarea {
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.contact form button {
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 180px;
+    background-color: #f7600f;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact form .form-icons {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.contact form .form-icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.contact form .form-icons .fa-facebook {
+    color: #3b5998
+}
+
+.contact form .form-icons .fa-twitter {
+    color: #1da1f2
+}
+
+.contact form .form-icons .fa-google-plus {
+    color: #dd4b39
+}
+
+/*End section  contact*/
+
+/*start section footer*/
+.footer{
+    background-color: #363232;
+    padding: 30px;
+    overflow: hidden;
+}
+.footer .copyright{
+    float: left;
+    color: #ddd;
+    font-size: 15px;
+}
+.footer .design{
+    float: right;
+    color: #ddd;
+    font-size: 15px;
+}
+/*end section footer*/
